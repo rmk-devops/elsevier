@@ -15,13 +15,11 @@ Simply run below commands to deploy terraform resources into aws
 
 1. Clone this repo into your machine
 
-2. Remove .terraform folder
+2. terraform init   # It will download all the required providers
 
-3. terraform init   # It will download all the required providers
+3. terraform plan  # dry run: to check the resources without actually creating them 
 
-4. terraform plan  # dry run: to check the resources without actually creating them 
-
-5. terraform apply # this will apply the configuration and create resources 
+4. terraform apply # this will apply the configuration and create resources 
 
    This command asks you for an approval to apply the configurations
 
